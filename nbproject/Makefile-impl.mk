@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Copy_Constructor
+PROJECTNAME=Copy_Constructor_Operator_Overload
 
 # Active Configuration
 DEFAULTCONF=Debug

@@ -38,6 +38,7 @@ public:
         this->mSize = b.mSize;
         this->content = new char[this->mSize + 1];
         strcpy(this->content, b.content);
+        return *this;
     }
 
     ~Base() {
