@@ -34,6 +34,12 @@ public:
         strcpy(this->content, b.content);
     }
 
+    Base& operator=(const Base &b) {
+        this->mSize = b.mSize;
+        this->content = new char[this->mSize + 1];
+        strcpy(this->content, b.content);
+    }
+
     ~Base() {
         delete this->content;
         this->content = NULL;
